@@ -1,0 +1,33 @@
+@font-face {
+    font-family: poppins-regular;
+    src: url("./assets/font/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: poppins-medium;
+    src: url("./assets/font/Poppins-Medium.ttf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body,#root{
+    height: auto;
+    font-family: poppins-regular;
+}
+section#home{
+    height: 100vh;
+}
+section#home{
+    background: #2d001e69 url("./assets/image/fond.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-blend-mode: soft-light;
+    color: #fff;
+}
+
+.maBtn{
+    width: max-content;
+}
