@@ -14,7 +14,7 @@ function App() {
   }, []);
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/blog/">
         <Routes>
           <Route path="" Component={HomeLayouts}>
             <Route path="" element={<Home />} />
